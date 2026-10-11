@@ -1,0 +1,12 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run HTML in Live Server",
+            "type": "shell",
+            "command": "code",
+            "args": ["--reuse-window", "--goto", "${file}"],
+            "problemMatcher": []
+        }
+    ]
+}
